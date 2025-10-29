@@ -1,12 +1,28 @@
-# React + Vite
+# 🔐 PassOP – React Password Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**PassOP** is a sleek and secure **Password Manager** built with **React.js** and **TailwindCSS**.  
+It allows users to **store, edit, copy, and delete passwords** for different websites — all through a simple, responsive, and intuitive interface.  
+The app integrates with a local **REST API backend** and provides real-time **toast notifications** for every action.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- 💾 **Add & Save Passwords** – Store credentials with one click.  
+- ✏️ **Edit & Delete** – Update or remove any saved entry easily.  
+- 👁️ **Show/Hide Password** – Toggle password visibility securely.  
+- 📋 **Copy to Clipboard** – Copy site URLs, usernames, or passwords instantly.  
+- 🔔 **Real-time Notifications** – Beautiful alerts powered by React Toastify.  
+- 🎨 **Responsive Design** – Clean UI built with TailwindCSS.  
+- ⚙️ **REST API Integration** – Interacts with backend at `http://localhost:3000/`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:** React.js, TailwindCSS  
+**Libraries:** React Toastify, UUID  
+**Backend:** RESTful API (Node/Express or local JSON server)  
+**Icons:** Lordicon animated icons  
+
+---
